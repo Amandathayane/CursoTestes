@@ -20,7 +20,7 @@ public class TestDeleteCustomer extends CoreBaseTest{
 		driver.navigate().to("http://demo.guru99.com/test/delete_customer.php");
 		deleteCustomer.insertId("123456");
 		deleteCustomer.clicar();
-		//deleteCustomer.validarAlerta();
+		deleteCustomer.validarAlerta();
 	}
 	
 }
